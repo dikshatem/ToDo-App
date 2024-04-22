@@ -1,0 +1,41 @@
+.task-card{
+  /* background-color: #3333cc; */
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  /* background-image: radial-gradient(red 5%, yellow 15%, green 60%); */
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,171,252,1) 100%);
+
+
+  width:300px;
+  padding:5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+.task-title{
+  font-size :18px;
+  font-weight :400;
+  margin-bottom:10px;
+  
+}
+.delete-icon{
+  height: 20px;
+  background-color: white;
+  border-radius:50%;
+  padding: 3px;
+  cursor: pointer;
+
+
+}
+.task-category{
+  
+  position: absolute;
+  right: 60px;
+ background-color:white;
+  
+  border-radius: 5px;
+  font-size: 13px;
+}
